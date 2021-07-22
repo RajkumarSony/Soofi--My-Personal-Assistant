@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="Images">
+    <file>mic.png</file>
+    <file>pic.png</file>
+    <file>cloud.png</file>
+  </qresource>
+</RCC>

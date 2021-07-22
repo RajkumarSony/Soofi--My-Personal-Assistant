@@ -1,0 +1,12 @@
+pip install PySide2
+pip install pyautogui
+pip install PyQt5
+pip install pyttsx3==2.71
+pip install pypiwin32
+pip install pipwin
+pip install pyaudio
+pip install speechRecognition
+pip install win10toast
+pip install wolframalpha
+pip install wikipedia
+

@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QMainWindow" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="container_6">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>550</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(0, 18, 25);
+    border-radius: 40px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="circularBg_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 30px;
+	background-color: #20BAFC;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="speakbtn">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>5</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#speakbtn {
+	border: 2px solid #00192C;
+	border-radius: 25px;	
+	image: url(:/Images/mic.png);
+	;background-color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.749 rgb(6,77,111), stop:0.750 rgb(6,77,111));
+}
+#speakbtn:hover {
+	background-color:  rgb(4,39,58);
+	border: 2px solid #00192C;
+}
+#speakbtn:pressed {	
+	background-color:#00192C;
+	border: 2px solid #00192C;
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>77</x>
+       <y>20</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#label{
+	font: 75 24pt &quot;Candara&quot;;
+	color:#fff;
+}</string>
+     </property>
+     <property name="text">
+      <string>Speak</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="circularBg_2">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>610</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	border-radius: 20px;
+	background-color: rgba(77, 77, 77, 77);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="user_input">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>25</y>
+       <width>100</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#user_input {
+	border: 2px solid #00192C;
+	border-radius: 10px;	
+	background-color:  rgb(0, 18, 25);
+	color: #fff;
+}
+
+#user_input:pressed {	
+	background-color: #00192C;
+	border: 2px solid #00192C;
+}</string>
+     </property>
+     <property name="text">
+      <string>User Input</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="container_7">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>40</y>
+      <width>201</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(0, 18, 25);
+    border-radius: 40px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>77</x>
+       <y>20</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#label{
+	font: 75 24pt &quot;Candara&quot;;
+	color:#fff;
+}</string>
+     </property>
+     <property name="text">
+      <string>Speak</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="circularBg_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>181</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 30px;
+	background-color: #20BAFC;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>5</y>
+        <width>129</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#pushButton_3 {
+	border: 2px solid #00192C;
+	border-radius: 25px;	
+	background-color: rgb(4,39,58);
+	
+	font: 10pt &quot;Leelawadee UI&quot;;
+	color: #fff;
+}
+#pushButton_3:hover {
+	background-color:  #00192C;
+	border: 2px solid #00192C;
+}
+#pushButton_3:pressed {	
+	background-color: #000;
+	border: 2px solid #00192C;
+}</string>
+      </property>
+      <property name="text">
+       <string>Raj Kumar Sony</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="circularBg_4">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>70</y>
+      <width>231</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	border-radius: 30px;
+	background-color: rgba(77, 77, 77, 77);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>30</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_3{
+	image: url(:/Images/pic.png);
+	border-radius: 50px;
+    border:2px solid #20BAFC;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closebtn">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1350</x>
+      <y>540</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>Close</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	font: 8pt &quot;Comic Sans MS&quot;;
+	border: none;
+	border-radius: 8px;		
+	background-color: #ca1606;
+
+	font: 25 8pt &quot;Microsoft YaHei UI Light&quot;;
+    color: #fff;
+}
+QPushButton:hover {		
+	background-color: rgb(255, 0, 0);
+}</string>
+    </property>
+    <property name="text">
+     <string>x</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_29">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>20</y>
+      <width>120</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:60px;
+background-color:rgb(0, 18, 25);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_31">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>20</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_31{
+     border-radius:25px;
+     background-color: #20BAFC;
+	 border:5px solid rgb(0, 18, 25);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_32">
+     <property name="geometry">
+      <rect>
+       <x>7</x>
+       <y>7</y>
+       <width>37</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#frame_32 {
+	border-radius: 18px;	
+	;background-color: #00192C;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="container_8">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-40</y>
+      <width>381</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(0, 18, 25);
+    border-radius: 40px;
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>77</x>
+       <y>20</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#label{
+	font: 75 24pt &quot;Candara&quot;;
+	color:#fff;
+}</string>
+     </property>
+     <property name="text">
+      <string>Speak</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="circularBg_6">
+     <property name="geometry">
+      <rect>
+       <x>14</x>
+       <y>15</y>
+       <width>361</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 35px;
+	background-color: #20BAFC;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QFrame" name="circularBg_7">
+      <property name="geometry">
+       <rect>
+        <x>6</x>
+        <y>0</y>
+        <width>352</width>
+        <height>88</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#circularBg_7 {
+	border: 2px solid #00192C;
+	border-radius: 33px;	
+	background-color: rgb(4,39,58);
+	
+	font: 10pt &quot;Leelawadee UI&quot;;
+	color: #fff;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_33">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>-20</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_33{
+     border-radius:25px;
+     background-color: #20BAFC;
+	 border:5px solid rgb(0, 18, 25);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_35">
+     <property name="geometry">
+      <rect>
+       <x>7</x>
+       <y>7</y>
+       <width>37</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#frame_35 {
+	border-radius: 18px;	
+	;background-color: #00192C;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_36">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>50</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#frame_36{
+     border-radius:25px;
+     background-color: #20BAFC;
+	 border:5px solid rgb(0, 18, 25);
+}
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_37">
+     <property name="geometry">
+      <rect>
+       <x>7</x>
+       <y>7</y>
+       <width>37</width>
+       <height>37</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#frame_37 {
+	border-radius: 18px;	
+	;background-color: #00192C;
+}
+</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>10</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_5{
+	font: 16pt &quot;Segoe UI&quot;;
+	color: #fff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Soofi : Personal Assistant</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_42">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:20px;
+background-color:#20BAFC;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_43">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>5</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:15px;
+background-color: #00192C;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_44">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>41</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:20px;
+background-color:#20BAFC;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="ui_time">
+    <property name="geometry">
+     <rect>
+      <x>1122</x>
+      <y>140</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ui_time{
+	
+	font: 25 36pt &quot;Bahnschrift Light&quot;;
+	color: #000;
+	alignment:right;
+}</string>
+    </property>
+    <property name="text">
+     <string>02 : 48</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="period">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>163</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#period{
+	
+	font: 25 18pt &quot;Bahnschrift Light&quot;;
+	color : #000;
+}</string>
+    </property>
+    <property name="text">
+     <string>AM</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ui_date">
+    <property name="geometry">
+     <rect>
+      <x>1123</x>
+      <y>200</y>
+      <width>195</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ui_date{
+	
+	font: 25 16pt &quot;Bahnschrift Light&quot;;
+	color: #000;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sun ,  09  Oct ' 2020</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="circularBg_8">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>-50</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	border-radius: 30px;
+	background-color: rgba(77, 77, 77, 77);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tempareture">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>20</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#tempareture{
+	
+	font: 25 24pt &quot;Bahnschrift Light&quot;;
+	color:  #000;
+}</string>
+    </property>
+    <property name="text">
+     <string>37°C</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="weathertype">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>-5</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#weathertype{
+	
+	font: 12pt &quot;Calibri&quot;;
+	color:  #000;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Type</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>650</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 12pt &quot;Calibri&quot;;
+color: #fff;</string>
+    </property>
+    <property name="text">
+     <string>Developed By :  Raj Kumar Sony</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>680</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 10pt &quot;Calibri&quot;;
+color: #fff;</string>
+    </property>
+    <property name="text">
+     <string>MCA Student of CMR Institute of Technology</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="status">
+    <property name="geometry">
+     <rect>
+      <x>1235</x>
+      <y>521</y>
+      <width>131</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#status{
+	
+	font: 12pt &quot;Bahnschrift SemiLight&quot;;
+	color: #000;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>28</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_3{
+	image: url(:/Images/cloud.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>circularBg_8</zorder>
+   <zorder>circularBg_4</zorder>
+   <zorder>frame_31</zorder>
+   <zorder>container_7</zorder>
+   <zorder>frame_29</zorder>
+   <zorder>circularBg_2</zorder>
+   <zorder>container_6</zorder>
+   <zorder>closebtn</zorder>
+   <zorder>frame_3</zorder>
+   <zorder>frame_33</zorder>
+   <zorder>frame_36</zorder>
+   <zorder>container_8</zorder>
+   <zorder>label_5</zorder>
+   <zorder>frame_42</zorder>
+   <zorder>ui_time</zorder>
+   <zorder>period</zorder>
+   <zorder>ui_date</zorder>
+   <zorder>tempareture</zorder>
+   <zorder>weathertype</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_15</zorder>
+   <zorder>status</zorder>
+   <zorder>label_3</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
